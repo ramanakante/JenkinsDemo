@@ -1,17 +1,17 @@
 {
-	 "AWSTemplateFormatVersion" : "2010-09-09",
+	 "AWSTemplateFormatVersion" : "2019-08-04",
 	 "Description" : "A sample template",
 		 "Resources" : {	 
 			"myS3Bucket": {
 				 "Type" : "AWS::S3::Bucket",
 				 "Properties" : {
-							"BucketName" : "surajs3cft"
+							"BucketName" : "ramanacft"
 				 }},
 			 	 
 			"myS3Bucket2": {
 				 "Type" : "AWS::S3::Bucket",
 				 "Properties" : {
-							"BucketName" : "surajs3cft2"
+							"BucketName" : "ramanacft2"
 				 }}
 			 
 }
