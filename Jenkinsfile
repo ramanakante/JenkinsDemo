@@ -11,12 +11,12 @@ sh "aws cloudformation create-stack --stack-name myteststack --template-body fil
         }
         stage('Test') { 
             steps {
-                sh "ls"
+                sh "ls -ltr"
             }
         }
         stage('Deploy') { 
             steps {
-               sh "ls"
+               sh "pwd"
             }
         }
     }
